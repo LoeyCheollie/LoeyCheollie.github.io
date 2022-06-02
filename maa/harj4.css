@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h4, p, li, table {
+    color: midnightblue;
+    font-family: 'Lucida Sans';
+}
+
+table, td, th {
+    border: 1px solid black;
+    width: 20%;
+}
+
+img, img:hover{
+    border-radius: 50%;
+    opacity: 0.5;
+}
+    
+body {
+    background-color: pink;
+    padding: 100px;
+    float: center;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar,.navbar a{
+    list-style-type: none;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: plum;
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 160px;
+    text-decoration: none;
+    margin: 10px;
+ 
+}
+    
+.navbar a:hover {
+    background-color: thistle;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: thistle;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.column1 {
+    display: flex;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    display: table;
+    background-color:mistyrose;
+    text-align: left;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.column {
+    display: flex;
+    width: 50%;
+    display: table;
+    background-color:mistyrose;
+    text-align: center;
+    border-radius: 25px;
+    text-align: left;
+    padding: 100px;
+}
+    
+.column2 {
+    display: flex;
+    width: 33.33%;
+    float: right;
+    padding: 10px;
+    display: table;
+    background-color:mistyrose;
+    text-align: left;
+    border-radius: 25px;
+}
+
+.column3 {
+    display: flex;
+    width: 33.33%;
+    float: center;
+    justify-content: center;
+    background-color: mistyrose;
+    text-align: center;
+    border-radius: 25%;
+    padding: 5%;
+}
+
+.column4 {
+    display: flex;
+    float: center;
+    width: 50%;
+    padding: 10px;
+    display: table;
+    background-color:mistyrose;
+    text-align: left;
+    border-radius: 25px;
+    padding: 5%;
+
+}
+
+.column5 {
+    display: flex;
+    background-color:mistyrose;
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+      

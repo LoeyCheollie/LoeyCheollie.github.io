@@ -1,0 +1,154 @@
+.item1 {grid-area: header;}
+.item2 {grid-area: main;}
+.item3 {grid-area: menu}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu menu menu menu menu'
+        'main main main main main main';
+    grid-gap: 0px; 
+    background-color: darkslategrey;
+    padding: 100px;
+    justify-content: center;
+    float: none;
+}
+*{
+    box-sizing: border-box;
+}
+.grid-container > div {
+    background-color: mistyrose;
+    text-align: left;
+    padding: 40px 45px;
+    font-size: 20px;
+    margin: 100px;
+    justify-content: center;
+    float: none;
+    border-radius: 13%;
+}
+h3 {
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: darkslategray;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 5px;
+    border: 1px mistyrose;
+    border-radius: 4px;
+    background-color: seashell;
+}
+input[type=date] {
+    width: 70%;
+    height: 5%;
+    padding: 5px;
+    border: 1px mistyrose;
+    border-radius: 4px;
+    background-color: seashell;
+}
+input[type=radio]{
+    width: 10px;
+    padding: 25px;
+}
+input[type=number]{
+    width: 70%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px mistyrose;
+    background-color: seashell;
+}
+textarea{
+    resize: none;
+    width: 1000px;
+    height: 200px;
+    background-color: seashell;
+}
+input[type=submit]{
+    width: 10%;
+    height: 70px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: seashell;
+    border-radius: 47%;
+}
+label{
+    padding: 12px 12px 12px 0;
+    justify-content: center;
+}
+.column-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    text-align: right;
+    justify-content: center;
+}
+.column-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.lähetä{
+
+text-align: center;
+
+}
+.navbar, .navbar a{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    float: center;
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1500px) {
+    .grid-container,  input[type=radio] {
+        grid-template-areas:
+            'header header header header'
+            'menu menu menu menu menu'
+            'main main main main main';
+        width: 100%;
+        float: none;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1500px){
+    body, .grid-container, .grid-container > div, input[type=radio]{
+        display: flex;
+        flex-direction: column;
+        background-color: mistyrose;
+        padding: 0px;
+} 
+    input[type=text], input[type=number]{
+        display: flex;
+        flex-direction: column;
+        background-color: seashell;
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    b{
+
+        font-size:  20px;
+    
+    }
+    textarea{
+        resize: none;
+        width: 200px;
+        height: 50px;
+        background-color: seashell;
+    }
+    aside {
+        display: none;
+    }
+}
