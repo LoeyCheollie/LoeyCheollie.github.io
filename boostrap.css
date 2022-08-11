@@ -4,7 +4,7 @@
 .item1{
     text-align: center;
     background-image: url("kuvat/Etusivun.PNG");
-    padding: 50px;
+    padding: 150px;
     color: honeydew;
     font-size: xx-large;
     width: 100%;
@@ -15,12 +15,49 @@
 .item4{
     text-align: center;
     color: aliceblue;
+    width: 100%;
 }
 
-body {
-    background-color: rgb(169,169,169);
+.body {
+    background-color: rgb(0, 0, 0);
 }
 
 .item2 {
     width: 30%;
+}
+
+a:link, a:visited {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+
+.black {
+    background-color: #202020;
+    width: 100%;
+}
+
+.black1 {
+    background-color: #202020;
+    width: 100%; 
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.row1 {
+    background-color: rgb(108, 155, 152);
+}
+
+.card-body {
+    background-color: rgb(108, 155, 152);
 }
