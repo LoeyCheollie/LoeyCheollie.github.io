@@ -6,6 +6,7 @@
 h1, h2, h4, p, li, table {
     color: midnightblue;
     font-family: 'Lucida Sans';
+    text-align: center;
 }
 
 table, td, th {
@@ -122,4 +123,6 @@ body {
     padding: 5%;
 }
 
-      
+.header {
+    text-align: center;
+}
