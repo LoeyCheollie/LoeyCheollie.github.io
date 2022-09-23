@@ -1,11 +1,12 @@
+body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(224, 151, 220), rgb(212, 253, 255));
+}
+
 .img-fluid{
     width: 100%;
 }
 
-body {
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(255, 197, 252), rgb(212, 253, 255));
-}
 .item1{
     text-align: center;
     background-image: url("kuvat/Etusivun.PNG");
@@ -15,10 +16,14 @@ body {
     width: 100%;
 }
 
+.responsive{
+    margin: auto;
+}
+
 .item3{
     margin: auto;
     text-align: center;
-    background-color: rgb(255, 221, 255);
+    background-color: rgb(255, 205, 255);
     max-width: 1200px;
 }
 
@@ -34,6 +39,10 @@ body {
 
 .item2 {
     width: 30%;
+}
+
+nav{
+    background-color: #000000;
 }
 
 .nav-item {
