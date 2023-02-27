@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    margin: 0;
+    width: 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgb(224, 151, 220), rgb(212, 253, 255));
 }
@@ -56,7 +56,7 @@ nav{
 }
 
 .nav-item2 {
-    background-color: #fdbfff;
+    background-color: #f700ff;
     color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 5px;
@@ -99,7 +99,7 @@ h2 {
 }
 
 .card-body {
-    background-color: rgb(108, 155, 152);
+    background-color: rgb(135, 201, 197);
 }
 
 .info {
@@ -108,37 +108,63 @@ h2 {
 
 .download {
     text-align: center;
-}
+}   
 
-a, li, .nav-link {
-    color: darkmagenta;
-    width: auto;
+.nav-item2 {
+    padding: 10px;
 }
 
 .card-img-top {
-    width: 100px;
-    height: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.nav-link2 {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link2:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link1 {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    color: #ff00d0;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 700px) {
-    img, .img-thumbnail {
+    .img-thumbnail {
         width: 110px;
         height: 100px; 
     }
-
     .item4{
-        text-align: left;
-        padding: 10px;
-        width: auto;
+        width: 100%;
     }
-}
-
-@media screen and (max-width: 700px) {
-    body {
-        min-width: 400px;
-        width: auto;
-        height: auto;
-        margin: 0%;
-        padding: none;
+    .nav-item2 {
+        border-radius: 0%;
+    } 
+    .card-group {
+        width: 100%;
+    }
+    .item3 {
+        width: 100%;
+    }
+    .item1 {
+        width: 100%;
+    }
+    .container p-5 my-5 border {
+        width: 100%;
     }
 }
