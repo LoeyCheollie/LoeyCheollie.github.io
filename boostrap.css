@@ -13,13 +13,13 @@ body {
     margin: auto;
     text-align: center;
     background-color: rgb(255, 205, 255);
-    max-width: 80%
+    width: 80%
 }
 
 .item4{
     text-align: center;
     color: aliceblue;
-    max-width: 100%;
+    width: 100%;
 }
 
 .body {
@@ -113,12 +113,12 @@ h2 {
 }
 
 .cv {
-    color: pink;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .cv:hover{
-    color: rgb(106, 65, 72);
+    color: rgb(222, 89, 111);
     text-decoration: none;
 }
 
@@ -130,6 +130,17 @@ h2 {
 
 .nav-link1:hover {
     color: #ff00d0;
+    text-decoration: none;
+}
+
+.nav-links {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links:hover {
+    color: #ffffff;
     text-decoration: none;
 }
 
