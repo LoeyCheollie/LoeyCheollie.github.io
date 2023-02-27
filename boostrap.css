@@ -123,6 +123,17 @@ h2 {
     text-decoration: none;
 }
 
+.cv {
+    color: pink;
+    text-decoration: none;
+}
+
+.cv:hover{
+    color: rgb(106, 65, 72);
+    text-decoration: none;
+}
+
+
 .nav-link1 {
     color: #000000;
     text-decoration: none;
