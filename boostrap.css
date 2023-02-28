@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(224, 151, 220), rgb(212, 253, 255));
+    background-image: linear-gradient(rgb(30, 28, 28), rgb(32, 32, 32));
 }
 
 .info {
@@ -20,18 +20,8 @@ body {
     width: 80%
 }
 
-.item4{
-    text-align: center;
-    color: aliceblue;
-    width: 100%;
-}
-
 .body {
     background-color: rgb(0, 0, 0);
-}
-
-.item2 {
-    width: 33.3%;
 }
 
 nav{
@@ -67,24 +57,17 @@ nav{
 
 .black {
     background-color: #ffa7e2;
+    color: #000000;
     width: 100%;
 }
 
-.black1 {
-    background-color: #ffa7e2;
-    width: 100%; 
-}
-
-h2 {
-    color: aliceblue;
-}
-
-.row1 {
-    background-color: rgb(108, 155, 152);
+h2, h5 {
+    color: rgb(0, 0, 0);
 }
 
 .card-body {
-    background-color: rgb(135, 201, 197);
+    background-color: rgb(244, 158, 202);
+    color: rgb(0, 0, 0);
 }
 
 .info {
@@ -103,6 +86,8 @@ h2 {
 .card-img-top {
     height: 200px;
     width: 200px;
+    border: #e081a4;
+    border-style: solid;
 }
 
 .nav-link2 {
@@ -117,8 +102,11 @@ h2 {
 }
 
 .cv {
-    color: rgb(0, 208, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .cv:hover{
@@ -157,9 +145,6 @@ h2 {
         width: auto;
         height: auto; 
     }
-    .item4{
-        width: 100%;
-    }
     .nav-item2 {
         border-radius: 0%;
     } 
@@ -167,9 +152,6 @@ h2 {
         width: 100%;
     }
     .item3 {
-        width: 100%;
-    }
-    .item1 {
         width: 100%;
     }
     .container p-5 my-5 border {
