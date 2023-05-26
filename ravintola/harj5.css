@@ -15,7 +15,7 @@
 }
 
 .grid-container > div {
-  background-color: mistyrose;
+  background-color: rgb(215, 215, 215);
   padding: 50px ;
   font-size: 25px;
   margin: 10px;
@@ -27,10 +27,9 @@
 
 
 body {
-  background-color: rgb(159, 175, 175);
+  background-color: rgb(19, 88, 88);
   background-position: 100%;
   background-attachment: fixed;
-  padding: 100px;
 }
 
 h5 {
@@ -39,7 +38,7 @@ h5 {
 
 img, img:hover{
   border-radius: 50%;
-  opacity: 0.5;
+
 }
 
 img:hover {

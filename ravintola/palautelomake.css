@@ -9,8 +9,7 @@
         'menu menu menu menu menu'
         'main main main main main main';
     grid-gap: 0px; 
-    background-color: darkslategrey;
-    padding: 100px;
+    padding: 10px;
     justify-content: center;
     float: none;
 }
@@ -20,9 +19,10 @@
 }
 
 .grid-container > div {
-    background-color: mistyrose;
+    background-color: rgb(133, 166, 170);
+    opacity: 0,5;
     text-align: left;
-    padding: 40px 45px;
+    padding: 70px 45px;
     font-size: 20px;
     margin: 100px;
     justify-content: center;
@@ -37,7 +37,7 @@ h3 {
 }
 
 body {
-    background-color: darkslategray;
+    background-color: rgb(40, 94, 94);
 }
 
 input[type=text] {
@@ -108,9 +108,7 @@ label{
 }
 
 .lähetä{
-
     text-align: center;
-
 }
 
 .navbar, .navbar a{
@@ -133,7 +131,7 @@ label{
             'main main main main main';
         width: 100%;
         float: none;
-        font-size: 20px;
+        font-size: 50px;
     }
 }
 
@@ -141,21 +139,17 @@ label{
     body, .grid-container, .grid-container > div, input[type=radio]{
         display: flex;
         flex-direction: column;
-        background-color: mistyrose;
         padding: 0px;
 } 
     input[type=text], input[type=number]{
         display: flex;
         flex-direction: column;
-        background-color: seashell;
         padding: 0px;
         font-size: 30px;
     }
 
     b{
-
         font-size:  20px;
-    
     }
     textarea{
         resize: none;
