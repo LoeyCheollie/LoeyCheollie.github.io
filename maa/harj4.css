@@ -7,13 +7,13 @@ body {
 }
   
 .header {
-    background-color: #f6ff00;
+    background-color: #f1ff76;
     padding: 60px;
     text-align: center;
 }
 
 .navbar {
-    background-color: rgb(90, 123, 152);
+    background-color: rgb(145, 199, 216);
     padding: 20px;
     color: aliceblue;
 }
@@ -30,13 +30,13 @@ a {
 }
 
 table {
-    background-color: #f6ff00;
-    border-color: black;
+    background-color: #d9a0fb;
+    border-color: rgb(255, 255, 255);
     border-style: solid;
 }
 
 tr, th, td {
-    border-color: black;
+    border-color: rgb(170, 149, 149);
     border-style: solid;
     padding: 10px;
 }
@@ -46,11 +46,11 @@ tr, th, td {
     -ms-flex: 1;
     flex: 1;
     padding: 30px;
-    background-color: rgb(145, 222, 222);
+    background-color: rgb(135, 147, 192);
 }
   
 .footer {
-    background-color: #f6ff00;
+    background-color: #f1ff76;
     padding: 10px;
     text-align: center;
 }
