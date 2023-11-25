@@ -2,7 +2,7 @@ body {
     height: 100%;
     width: 100%;
     background-image: url("kuvat/back.png");
-
+    font-family: monospace;
 }
 
 .info {
@@ -16,8 +16,12 @@ body {
 .item3{
     margin: auto;
     text-align: center;
-    background-color: rgb(254, 220, 254);
-    width: 80%
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    border-color: #ff9ce0;
+    border-style: solid;
+    border-top: #ff9ce0;
+    border-bottom: #ff9ce0;
 }
 
 .body {
@@ -29,7 +33,7 @@ nav{
 }
 
 .nav-item2 {
-    background-color: #ff0090;
+    background-color: #cc659f;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 25px;
@@ -61,17 +65,19 @@ nav{
     width: 100%;
 }
 
-h2, h5 {
-    color: rgb(0, 0, 0);
+h2, h5, h1, h2, h3, p {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
 }
 
 .card-body {
-    background-color: rgb(244, 158, 202);
+    background-color: #ff9ce0;
     color: rgb(0, 0, 0);
 }
 
 .info {
     text-align: left;
+    color: #ffffff;
 }
 
 .download {
@@ -86,7 +92,7 @@ h2, h5 {
 .card-img-top {
     height: 200px;
     width: 200px;
-    border: #e081a4;
+    border: #ffffff;
     border-style: solid;
 }
 
