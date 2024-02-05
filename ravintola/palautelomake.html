@@ -1,92 +1,78 @@
-<form action="harj5.html" method="post">
-    <html lang="fi">
-    <link rel="stylesheet" href="palautelomake.css">
-
-        <div class="grid-container">
-            <div class="ravintola">
-            
-                <div class="item1">
-            
-                    <div class= "navbar">
-                        <a href="harj5.html">Ravintolan etusivu</a>   
-                    </div>
-
-                        <h3>Ravintola Lapintaika Asiakaspalautelomake</h3><br><br>
-
-                    <div class="item2">
-
-                        <div class="column-25">
-                            <label for="Etunimi"><b>Etunimi</b></label>
-                        </div>
-                        <div class="column-75">
-                            <input type="text" id="fname" name="Etunimi">
-                        </div>
-                        <div class="column-25">
-                            <label for="Sukunimi"><b>Sukunimi</b></label>
-                        </div>
-                        <div class="column-75">
-                            <input type="text" id="Sukunimi" name="Sukunimi">
-                        </div>
-                        <div class="column-25">
-                            <label for="Puhelinnumero"><b>Puhelinnumero</b></label>
-                        </div>
-                        <div class="column-75">
-                            <input type="number" id="Puhelinnumero" name="Puhelinnumero">
-                        </div>
-                        <div class="column-25">
-                            <label for="Sähköpostiosoite"><b>Sähköpostiosoite</b></label>
-                        </div>
-                        <div class="column-75">
-                            <input type="text" id="Sähköpostiosoite" name="Sähköpostiosoite"><br><br>
-                        </div>
-                        <div class="column-25">
-                            <label for="Sukupuoli"><b>Sukupuoli</b></label>
-                        </div>
-                        <div class="column-75"><br>
-                            <input type="radio" id="Sukupuoli" value="Nainen">Nainen<br>
-                            <input type="radio" id="Sukupuoli" value="nainen">Mies<br>
-                            <input type="radio" id="Sukupuoli" value="nainen">Muu<br><br>
-                        </div>
-                        <div class="column-25">
-                            <label for=""><b>Asiointipäivä</b></label>
-                        </div>
-                        <div class="column-75"><br>
-                            <input type="date" id="Asiointipäivä" name="Asiointipäivä"><br><br>
-                        </div>
-                        <div class="column-25">
-                            <label for="Palvelu"><b>Arvioi palvelu</b></label>
-                        </div>
-                        <div class="column-75"><br>
-                            <input type="radio" id="Ravintola" value="Todella hyvä">Sain ravintolassa todella hyvää palvelua<br>
-                            <input type="radio" id="Ravintola" value="hyvä">Sain ravintolassa ihan hyvää palvelua<br>
-                            <input type="radio" id="Ravintola" value="Huono">Sain ravintolassa huonoa palvelua<br>
-                            <input type="radio" id="Ravintola" value=""><input type="text" name="ravintola" value=""><br><br>
-                        </div>
-                        <div class="column-25">
-                            <label for=""><b>Rastita vaihtoehdot</b></label>
-                        </div>
-                        <div class="column-75"><br>
-                            <input type="checkbox" id="" value="">Ravintolan tilat olivat siistit<br>
-                            <input type="checkbox" id="" value="">Palvelu oli nopeaa<br>
-                            <input type="checkbox" id="" value="">Palvelu oli hyvää<br>
-                            <input type="checkbox" id="" value="">Ruoan hinnat olivat kohdillaan<br>
-                            <input type="checkbox" id="" value="">Ruoka oli hyvää<br>
-                            <input type="checkbox" id="" value="">Ruoan ulkonäkö oli hyvä<br>
-                            <input type="checkbox" id="" value=""><input type="text" name="ravintola" value=""><br><br>
-                        </div>
-                        <div class="column-25">
-                            <label for="kenttä"><b>Vapaa palaute</b></label>
-                        </div>
-                        <div class="column-75"><br>
-                            <textarea id="subject" name="Vapaa" style="width:400px"></textarea><br><br>
-                        </div>
-                    </div>
-                </div> 
-                <div class="lähetä">
-                    <label for="Lähetä"><b></b></label>
-                    <input type="submit" value="Lähetä">
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <body style="background-color: lightblue;">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="\kuvat/onarehn.png" type="image/x-icon" />
+    <title>Ravintola Lapintaika</title>
+</head>   
+<body>
+    <a href="harj5.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Ravintolan etusivu</a>
+    <center><h3>Ravintola Lapintaika Asiakaspalautelomake</h3></center>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-header">Ravintola Lapintaika: Palautelomake</div>
+              <div class="card-body">
+                <form id="feedbackForm">
+                  <div class="form-group">
+                    <label for="firstName">Etunimi:</label>
+                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Sukunimi:</label>
+                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Sähköpostiosoite:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phoneNumber">Puhelinnumero:</label>
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="gender">Sukupuoli:</label>
+                    <select class="form-control" id="gender" name="gender" required>
+                      <option value="">Sukupuolen valinta:</option>
+                      <option value="male">Mies</option>
+                      <option value="female">Nainen</option>
+                      <option value="other">Muu</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="foodAppreciation">Arvio ruoasta:</label>
+                    <select class="form-control" id="foodAppreciation" name="foodAppreciation" required>
+                      <option value="">Valitse arviointi:</option>
+                      <option value="excellent">Erinomaista</option>
+                      <option value="good">Hyvää</option>
+                      <option value="average">Keskitasoa</option>
+                      <option value="poor">Huonoa</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="serviceAppreciation">Arvio palvelusta:</label>
+                    <select class="form-control" id="serviceAppreciation" name="serviceAppreciation" required>
+                      <option value="">Valitse arvio:</option>
+                      <option value="excellent">Erinomaista</option>
+                      <option value="good">Hyvää</option>
+                      <option value="average">Keskitasoa</option>
+                      <option value="poor">Huonoa</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="feedback">Vapaa palaute:</label>
+                    <textarea class="form-control" id="feedback" name="feedback" rows="3"></textarea>
+                  </div>
+                  <center><button type="submit" class="btn btn-secondary btn-lg active">Lähetä palaute</button></center>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
-    </form>
+      </div>
+    </body>
 </html>
