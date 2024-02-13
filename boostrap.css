@@ -1,8 +1,11 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url("kuvat/back.png");
+    background-image: url("kuvat/cherry-blossom-tree-1225186_1280.jpg");
     font-family: monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .info {
@@ -144,6 +147,11 @@ h2, h5, h1, h2, h3, p {
 
 * {
     box-sizing: border-box;
+}
+
+.card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {

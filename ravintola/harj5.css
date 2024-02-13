@@ -76,6 +76,11 @@ header, footer, article, nav, aside {
   cursor: pointer;
 }
 
+.button:hover{
+  transform: translate3D(0,-1px,0) scale(1.06);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1000px){
   body, .grid-container, .grid-container > div, img  {
     display: grid;

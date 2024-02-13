@@ -4,52 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hallitus</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="harj4.css">
 
 </head>
 <body>
 
-    <div class="header">
-        <h1>Alankomaat</h1>
-    </div>
-    
-    <div class="navbar">
-        <a href="harj4_oonasaha.html">Etusivu</a>
-        <a href="harj4_sivu2.html">Kaupungit</a>
-        <a href="harj4_sivu3.html">Hallitus</a>
-        <a href="harj4_sivu4.html">Urheilu</a>
-        <a href="harj4_sivu5.html">Luonto</a>
-    </div>
-    <div class="row">
-        <div class="column">
-            <h2>Kuningasperhe</h2>
-            <img src="img/Alankomaiden_kuningas.jpg" alt="Alankomaiden kuningas" width="300" height="300">
-            <p>
-                <b>Willem-Alexander Claus George Ferdinand</b> on Alankomaiden kuningas, hän on ollut vallassa vuodesta 2013, sillä hänen äitinsä <b>Beatrix</b> luopui kruunusta hänen vuokseen.
-                <b>Willem-Alexander</b> syntyi 27.huhtikuuta 1967 ja hänellä on kaksi veljeä Prinssi <b>Johan Friso</b> ja Prinssi <b>Constantijn</b>. 
-                <b>Willem-Aleksander</b> meni vuonna 2002 naimisiin Kuningatar <b>Maximan</b> kanssa.
-                Hänellä ja Maximalla on kolme tytärtä Nimeltään <b>Catharina-Amalia</b>, <b>Alexia</b> ja <b>Ariane</b>. 
-                Entinen kuningatar <b>Beatrix</b> oli vallassa vuodesta 1980-2013, hänen puhuttelunimensä on nykyään <b>Beatrix</b>, Alankomaiden prinsessa.
-                <b>Beatrix</b> syntyi 31.tammikuuta 1938.
-            </p>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Alankomaat</h1>
         </div>
-        <div class="column">
-            <h2>Politiikka</h2>
-            <img src="img/Alankomaat_paaministeri.jpg" alt="pääministeri" width="300" height="300">
-            <p>
-                Alankomaat on ollut perustuslaillinen monarkia vuodesta 1815. Hallitusta johtaa Alankomaissa pääministeri, jonka monarkki nimittää. 
-                Alankomaissa äänioikeuden saa kun täyttää 18 vuotta.
-                Alankomaiden pääministeri on tällä hetkellä <b>Mark Rutte</b>, joka johtaa hallitusta. Hän on ollut päämisteri vuodesta 2010.
-                Alankomaiden parlamentti on kaksikamrinen ja se koostuu alahuoneesta, eli
-                toisesta kamarista ja ylähuoneesta eli ensimmäisestä kamarista. Toisella kamarilla on enemmän vaikutusvaltaa, kuin ensimmäisellä kamarilla. 
-                Toisessa kamarissa on 150 jäsentä, ja heidät valitaan joka neljäs vuosi
-                yleisillä vaaleilla. Ensimmäisessä kamarissa on 75 jäsentä, Heidät valitsee provinssien-parlamentit provinssi-parlamenttivaalien jälkeen joka neljäs vuosi.  
-                    
-            </p>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Alankomaat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_oonasaha.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu2.html">Kaupungit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu3.html">Hallitus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu4.html">Urheilu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu5.html">Luonto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Kuningasperhe</h2>
+                <img src="img/Alankomaiden_kuningas.jpg" alt="Alankomaiden kuningas" class="img-fluid">
+                <p>
+                    <b>Willem-Alexander Claus George Ferdinand</b> on Alankomaiden kuningas, hän on ollut vallassa vuodesta 2013, sillä hänen äitinsä <b>Beatrix</b> luopui kruunusta hänen vuokseen.
+                    <b>Willem-Alexander</b> syntyi 27.huhtikuuta 1967 ja hänellä on kaksi veljeä Prinssi <b>Johan Friso</b> ja Prinssi <b>Constantijn</b>. 
+                    <b>Willem-Aleksander</b> meni vuonna 2002 naimisiin Kuningatar <b>Maximan</b> kanssa.
+                    Hänellä ja Maximalla on kolme tytärtä Nimeltään <b>Catharina-Amalia</b>, <b>Alexia</b> ja <b>Ariane</b>. 
+                    Entinen kuningatar <b>Beatrix</b> oli vallassa vuodesta 1980-2013, hänen puhuttelunimensä on nykyään <b>Beatrix</b>, Alankomaiden prinsessa.
+                    <b>Beatrix</b> syntyi 31.tammikuuta 1938.
+                </p>
+            </div>
+            <div class="col">
+                <h2>Politiikka</h2>
+                <img src="img/Alankomaat_paaministeri.jpg" alt="pääministeri" class="img-fluid">
+                <p>
+                    Alankomaat on ollut perustuslaillinen monarkia vuodesta 1815. Hallitusta johtaa Alankomaissa pääministeri, jonka monarkki nimittää. 
+                    Alankomaissa äänioikeuden saa kun täyttää 18 vuotta.
+                    Alankomaiden pääministeri on tällä hetkellä <b>Mark Rutte</b>, joka johtaa hallitusta. Hän on ollut päämisteri vuodesta 2010.
+                    Alankomaiden parlamentti on kaksikamrinen ja se koostuu alahuoneesta, eli
+                    toisesta kamarista ja ylähuoneesta eli ensimmäisestä kamarista. Toisella kamarilla on enemmän vaikutusvaltaa, kuin ensimmäisellä kamarilla. 
+                    Toisessa kamarissa on 150 jäsentä, ja heidät valitaan joka neljäs vuosi
+                    yleisillä vaaleilla. Ensimmäisessä kamarissa on 75 jäsentä, Heidät valitsee provinssien-parlamentit provinssi-parlamenttivaalien jälkeen joka neljäs vuosi.  
+                </p>
+            </div>
+        </div>
+
+        <div class="footer text-center mt-5">
+            <h6>© 2024 Ona Rehn</h6>
         </div>
     </div>
-    <div class="footer">
-        <h1>© 2024 Ona Rehn</h1>
-    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

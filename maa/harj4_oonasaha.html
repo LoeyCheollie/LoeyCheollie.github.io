@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alankomaat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="harj4.css">
 </head>
 <body>
-
-    <div class="header">
-        <h1>Alankomaat</h1>
-    </div>
-
-   <div class="navbar">
-        <a href="harj4_oonasaha.html">Etusivu</a>
-        <a href="harj4_sivu2.html">Kaupungit</a>
-        <a href="harj4_sivu3.html">Hallitus</a>
-        <a href="harj4_sivu4.html">Urheilu</a>
-        <a href="harj4_sivu5.html">Luonto</a>
-    </div>
-
-    <div class="row">
-        <div class="column">
-            <h2>Alankomaat</h2>
-            <p>
-                Alankomaat eli Hollanti sijitsee Euroopassa. Alankomaiden pääkaupunki on Amsterdam.<br>
-                Suurinosa Alankomaista sijaitsee läntisessä Euroopassa. Alankomaat on kuningaskunta.<br>
-                Valtaosa Alankomaiden väestöstä puhuu hollantia äidinkielenään, mutta pohjoisosassa on friisinkielinen vähemmistö ja eteläosassa limburginkielinen vähemmistö.<br>
-                Alankomaat on todella tärkeä kulttuurivaltio Euroopassa ja sen pääkaupunki Amsterdam on valittu vuoden kulttuuripääkaupungiksi vuonna 2001.<br>
-                Alankomaat on yksi Euroopan Unionin perustajäsenistä.<br>
-                Alankomaat muodostaa Luxemburgin ja Belgian kanssa Benelux-maat.<br>
-            </p>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Alankomaat</h1>
         </div>
-        <div class="column">
-            <h2>Yleistietoa</h2>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Alankomaat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_oonasaha.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu2.html">Kaupungit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu3.html">Hallitus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu4.html">Urheilu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="harj4_sivu5.html">Luonto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Alankomaat</h2>
+                <p>
+                    Alankomaat eli Hollanti sijitsee Euroopassa. Alankomaiden pääkaupunki on Amsterdam.<br>
+                    Suurinosa Alankomaista sijaitsee läntisessä Euroopassa. Alankomaat on kuningaskunta.<br>
+                    Valtaosa Alankomaiden väestöstä puhuu hollantia äidinkielenään, mutta pohjoisosassa on friisinkielinen vähemmistö ja eteläosassa limburginkielinen vähemmistö.<br>
+                    Alankomaat on todella tärkeä kulttuurivaltio Euroopassa ja sen pääkaupunki Amsterdam on valittu vuoden kulttuuripääkaupungiksi vuonna 2001.<br>
+                    Alankomaat on yksi Euroopan Unionin perustajäsenistä.<br>
+                    Alankomaat muodostaa Luxemburgin ja Belgian kanssa Benelux-maat.<br>
+                </p>
+            </div>
+            <div class="col">
+                <h2>Yleistietoa</h2>
                 <p>
                     Alankomaiden väkiluku on 17,4 miljoonaa.<br>
                     Alankomaiden pinta-ala on 41 526 neliökilometriä.<br>
@@ -42,37 +59,41 @@
                     Alankomaiden aika vyöhyke on UTC +1.S<br>
                     Alankomaissa on kuningas nimeltä Willem-Alexander Claus George Ferdinand.<br>
                 </p>
-                <a href="https://fi.wikipedia.org/wiki/Alankomaat">Linkki Alankomaiden Wikipedia-sivulle</a>
+                <a href="https://fi.wikipedia.org/wiki/Alankomaat" class="btn btn-primary">Linkki Alankomaiden Wikipedia-sivulle</a>
+            </div>
+            <div class="col">
+                <h2>Bruttokansantuote</h2>
+                <table class="table">
+                    <tr>
+                        <th>Yhteensä</th>
+                        <th>per asukas</th>
+                    </tr>
+                    <tr>
+                        <td>680 miljoona USD</td>
+                        <td>40 500 USD</td>
+                    </tr>
+                </table>
+                <h2>Elinkeinorakenne</h2>
+                <table class="table">
+                    <tr>
+                        <th>Palvelut</th>
+                        <th>Maatalous</th>
+                        <th>Teollisuus</th>
+                    </tr>
+                    <tr>
+                        <td>72,5 %</td>
+                        <td>2,5 %</td>
+                        <td>25 %</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="column">
-            <h2>Bruttokansantuote</h2>
-            <table>
-                <tr>
-                    <th>Yhteensä</th>
-                    <th>per asukas</th>
-                </tr>
-                <tr>
-                    <td>680 miljoona USD</td>
-                    <td>40 500 USD</td>
-                </tr>
-            </table><br>
-            <h2>Elinkeinorakenne</h2>
-            <table>
-                <tr>
-                    <th>Palvelut</th>
-                    <th>Maatalous</th>
-                    <th>Teollisuus</th>
-                </tr>
-                <tr>
-                    <td>72,5 prosenttia</td>
-                    <td>2,5 prosenttia</td>
-                    <td>25 prosenttia</td>
-                </tr>
-        </table>
+        <div class="footer text-center mt-5">
+            <h6>© 2024 Ona Rehn</h6>
+        </div>
     </div>
-</div>
-<div class="footer">
-    <h1>© 2024 Ona Rehn</h1>
-</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
